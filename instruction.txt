@@ -1,0 +1,28 @@
+- Xử dụng chức năng phân trang truyền vào 2 query tham số
+    + page : trang hiện tại
+    + limit : giới hạn số lượng trả về
+- Xử dụng chức năng search truyền vào query 2 tham số
+    + search : tìm kiếm theo tên
+    + limit : giới hạn số lượng trả về (nếu không truyền limit mặc định lấy về tất cả số lượng tìm kiếm theo search)
+
+
+- Data demo
+    Data Categories
+    {
+        "id":"1",
+        "name":"categories 1",
+        "slug":"1"    
+    }
+
+    Data posts
+    {
+        "id":"1",
+        "title":"posts 1",
+        "slug":"1",
+        "excerpt":"excerpt 1",
+        "content":"content 1",
+        "tags":"tags 1",
+        "author":"author 1",
+        "site_id":"1",
+        "category_id":"1"
+    }
