@@ -23,6 +23,20 @@
         "content":"content 1",
         "tags":"tags 1",
         "author":"author 1",
-        "site_id":"1",
-        "category_id":"1"
+        "categoryId":"1"
     }
+
+- Để chạy dự án 
+    + npm start
+
+- Api chạy trực tiếp trên server
+    + CRUD posts
+        - https://intern-be-testing.onrender.com/api/v1/posts/create
+        - https://intern-be-testing.onrender.com/api/v1/posts/read
+        - https://intern-be-testing.onrender.com/api/v1/posts/update
+        - https://intern-be-testing.onrender.com/api/v1/posts/delete
+    + CRUD categories
+        - https://intern-be-testing.onrender.com/api/v1/categories/create
+        - https://intern-be-testing.onrender.com/api/v1/categories/read
+        - https://intern-be-testing.onrender.com/api/v1/categories/update
+        - https://intern-be-testing.onrender.com/api/v1/categories/delete
